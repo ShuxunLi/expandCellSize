@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="KGk-i7-Jjw" customClass="ExpandCellSizeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="321" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="321" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Axt-s4-bn3" userLabel="Bootom View">
+                        <rect key="frame" x="0.0" y="60" width="321" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZh-8r-v0v" customClass="LocalizedButton">
+                                <rect key="frame" x="8" y="4" width="64.5" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="买"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleKey" value="ChiCangButton1"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                                        <color key="value" red="0.40000000000000002" green="0.43529411759999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9n0-FQ-yzC" customClass="LocalizedButton">
+                                <rect key="frame" x="88" y="4" width="64" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="卖"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleKey" value="ChiCangButton2"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                                        <color key="value" red="0.40000000000000002" green="0.43529411759999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieu-wY-c2K" customClass="LocalizedButton">
+                                <rect key="frame" x="168" y="4" width="64.5" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="一键平仓"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleKey" value="ChiCangButton3"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                                        <color key="value" red="0.40000000000000002" green="0.43529411759999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bf9-E4-B8u" customClass="LocalizedButton">
+                                <rect key="frame" x="249" y="4" width="64" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="行情"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleKey" value="ChiCangButton4"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorWithUIColor">
+                                        <color key="value" red="0.40000000000000002" green="0.43529411759999997" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13725490200000001" green="0.1843137255" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ieu-wY-c2K" firstAttribute="centerY" secondItem="9n0-FQ-yzC" secondAttribute="centerY" id="2gK-K3-WqX"/>
+                            <constraint firstItem="Bf9-E4-B8u" firstAttribute="height" secondItem="Ieu-wY-c2K" secondAttribute="height" id="3bw-Kq-IhP"/>
+                            <constraint firstItem="Ieu-wY-c2K" firstAttribute="leading" secondItem="9n0-FQ-yzC" secondAttribute="trailing" constant="16" id="Jwn-ow-PKn"/>
+                            <constraint firstItem="9n0-FQ-yzC" firstAttribute="height" secondItem="DZh-8r-v0v" secondAttribute="height" id="MKF-Qe-KSS"/>
+                            <constraint firstItem="Bf9-E4-B8u" firstAttribute="centerY" secondItem="Ieu-wY-c2K" secondAttribute="centerY" id="ORD-O7-HnB"/>
+                            <constraint firstItem="Bf9-E4-B8u" firstAttribute="leading" secondItem="Ieu-wY-c2K" secondAttribute="trailing" constant="16" id="Qjq-GS-64S"/>
+                            <constraint firstItem="DZh-8r-v0v" firstAttribute="leading" secondItem="Axt-s4-bn3" secondAttribute="leading" constant="8" id="T0t-QD-2qb"/>
+                            <constraint firstItem="Ieu-wY-c2K" firstAttribute="height" secondItem="9n0-FQ-yzC" secondAttribute="height" id="V6l-WY-T0i"/>
+                            <constraint firstItem="9n0-FQ-yzC" firstAttribute="centerY" secondItem="Axt-s4-bn3" secondAttribute="centerY" id="Wrl-bn-eIH"/>
+                            <constraint firstItem="DZh-8r-v0v" firstAttribute="top" secondItem="Axt-s4-bn3" secondAttribute="top" constant="4" id="c4Y-0r-tkQ"/>
+                            <constraint firstItem="Bf9-E4-B8u" firstAttribute="width" secondItem="Ieu-wY-c2K" secondAttribute="width" id="cjT-GZ-8Xw"/>
+                            <constraint firstItem="9n0-FQ-yzC" firstAttribute="width" secondItem="DZh-8r-v0v" secondAttribute="width" id="lgU-IV-mMu"/>
+                            <constraint firstAttribute="trailing" secondItem="Bf9-E4-B8u" secondAttribute="trailing" constant="8" id="mJK-Aa-dhf"/>
+                            <constraint firstItem="9n0-FQ-yzC" firstAttribute="leading" secondItem="DZh-8r-v0v" secondAttribute="trailing" constant="16" id="oYB-Wo-aLn"/>
+                            <constraint firstAttribute="bottom" secondItem="DZh-8r-v0v" secondAttribute="bottom" constant="4" id="oaM-kF-KgW"/>
+                            <constraint firstItem="Ieu-wY-c2K" firstAttribute="width" secondItem="9n0-FQ-yzC" secondAttribute="width" id="orC-3F-g5Q"/>
+                            <constraint firstAttribute="height" constant="30" id="sCu-qt-Gia"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ob5-kR-uiI" userLabel="Top Vew">
+                        <rect key="frame" x="0.0" y="0.0" width="321" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="expandCell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73Z-Pn-YQG" customClass="LocalizedLabel">
+                                <rect key="frame" x="16" y="23" width="63" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1843137255" green="0.2470588235" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="73Z-Pn-YQG" firstAttribute="centerY" secondItem="Ob5-kR-uiI" secondAttribute="centerY" id="aH8-OE-Aj4"/>
+                            <constraint firstItem="73Z-Pn-YQG" firstAttribute="leading" secondItem="Ob5-kR-uiI" secondAttribute="leading" constant="16" id="oDc-yw-1Da"/>
+                            <constraint firstAttribute="height" constant="60" id="xrP-DO-Oxz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ob5-kR-uiI" firstAttribute="bottom" secondItem="Axt-s4-bn3" secondAttribute="top" id="1UF-yC-KzB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ob5-kR-uiI" secondAttribute="trailing" id="fww-3l-VXI"/>
+                <constraint firstItem="Ob5-kR-uiI" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="iOC-fD-fh1"/>
+                <constraint firstItem="Axt-s4-bn3" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="qrM-X1-gDd"/>
+                <constraint firstItem="Ob5-kR-uiI" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" id="wli-5K-Raf"/>
+                <constraint firstAttribute="trailing" secondItem="Axt-s4-bn3" secondAttribute="trailing" id="zWW-75-TNa"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomView" destination="Axt-s4-bn3" id="AnL-Ub-0bt"/>
+            </connections>
+            <point key="canvasLocation" x="205.5" y="378"/>
+        </tableViewCell>
+    </objects>
+</document>

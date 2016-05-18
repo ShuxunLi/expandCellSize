@@ -15,6 +15,8 @@
 		7541D2171CEC6EE600992C6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7541D2151CEC6EE600992C6C /* LaunchScreen.storyboard */; };
 		7541D2221CEC6EE600992C6C /* expandCellSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541D2211CEC6EE600992C6C /* expandCellSizeTests.m */; };
 		7541D22D1CEC6EE600992C6C /* expandCellSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541D22C1CEC6EE600992C6C /* expandCellSizeUITests.m */; };
+		7541D23D1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7541D23B1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.m */; };
+		7541D23E1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7541D23C1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		7541D2281CEC6EE600992C6C /* expandCellSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = expandCellSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7541D22C1CEC6EE600992C6C /* expandCellSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = expandCellSizeUITests.m; sourceTree = "<group>"; };
 		7541D22E1CEC6EE600992C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7541D23A1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandCellSizeTableViewCell.h; sourceTree = "<group>"; };
+		7541D23B1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandCellSizeTableViewCell.m; sourceTree = "<group>"; };
+		7541D23C1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpandCellSizeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				7541D20B1CEC6EE600992C6C /* AppDelegate.m */,
 				7541D20D1CEC6EE600992C6C /* ViewController.h */,
 				7541D20E1CEC6EE600992C6C /* ViewController.m */,
+				7541D23A1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.h */,
+				7541D23B1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.m */,
+				7541D23C1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.xib */,
 				7541D2101CEC6EE600992C6C /* Main.storyboard */,
 				7541D2131CEC6EE600992C6C /* Assets.xcassets */,
 				7541D2151CEC6EE600992C6C /* LaunchScreen.storyboard */,
@@ -245,6 +253,7 @@
 			files = (
 				7541D2171CEC6EE600992C6C /* LaunchScreen.storyboard in Resources */,
 				7541D2141CEC6EE600992C6C /* Assets.xcassets in Resources */,
+				7541D23E1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.xib in Resources */,
 				7541D2121CEC6EE600992C6C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				7541D20F1CEC6EE600992C6C /* ViewController.m in Sources */,
 				7541D20C1CEC6EE600992C6C /* AppDelegate.m in Sources */,
+				7541D23D1CEC71BE00992C6C /* ExpandCellSizeTableViewCell.m in Sources */,
 				7541D2091CEC6EE600992C6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +508,7 @@
 				7541D2331CEC6EE600992C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7541D2341CEC6EE600992C6C /* Build configuration list for PBXNativeTarget "expandCellSizeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +517,7 @@
 				7541D2361CEC6EE600992C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7541D2371CEC6EE600992C6C /* Build configuration list for PBXNativeTarget "expandCellSizeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +526,7 @@
 				7541D2391CEC6EE600992C6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
