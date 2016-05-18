@@ -1,6 +1,6 @@
 //
-//  expandedCellSizeTests.m
-//  expandedCellSizeTests
+//  expandCellSizeTests.m
+//  expandCellSizeTests
 //
 //  Created by 聚财道 on 16/5/18.
 //  Copyright © 2016年 jucaidao. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface expandedCellSizeTests : XCTestCase
+@interface expandCellSizeTests : XCTestCase
 
 @end
 
-@implementation expandedCellSizeTests
+@implementation expandCellSizeTests
 
 - (void)setUp {
     [super setUp];

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>expandedCellSize.xcscheme</key>
+		<key>expandCellSize.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7541D1C41CEC662900992C6C</key>
+		<key>7541D2031CEC6EE600992C6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7541D1DD1CEC662900992C6C</key>
+		<key>7541D21C1CEC6EE600992C6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7541D1E81CEC662900992C6C</key>
+		<key>7541D2271CEC6EE600992C6C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

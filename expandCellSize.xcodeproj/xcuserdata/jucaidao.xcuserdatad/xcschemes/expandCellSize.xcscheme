@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7541D1C41CEC662900992C6C"
-               BuildableName = "expandedCellSize.app"
-               BlueprintName = "expandedCellSize"
-               ReferencedContainer = "container:expandedCellSize.xcodeproj">
+               BlueprintIdentifier = "7541D2031CEC6EE600992C6C"
+               BuildableName = "expandCellSize.app"
+               BlueprintName = "expandCellSize"
+               ReferencedContainer = "container:expandCellSize.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7541D1DD1CEC662900992C6C"
-               BuildableName = "expandedCellSizeTests.xctest"
-               BlueprintName = "expandedCellSizeTests"
-               ReferencedContainer = "container:expandedCellSize.xcodeproj">
+               BlueprintIdentifier = "7541D21C1CEC6EE600992C6C"
+               BuildableName = "expandCellSizeTests.xctest"
+               BlueprintName = "expandCellSizeTests"
+               ReferencedContainer = "container:expandCellSize.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7541D1E81CEC662900992C6C"
-               BuildableName = "expandedCellSizeUITests.xctest"
-               BlueprintName = "expandedCellSizeUITests"
-               ReferencedContainer = "container:expandedCellSize.xcodeproj">
+               BlueprintIdentifier = "7541D2271CEC6EE600992C6C"
+               BuildableName = "expandCellSizeUITests.xctest"
+               BlueprintName = "expandCellSizeUITests"
+               ReferencedContainer = "container:expandCellSize.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7541D1C41CEC662900992C6C"
-            BuildableName = "expandedCellSize.app"
-            BlueprintName = "expandedCellSize"
-            ReferencedContainer = "container:expandedCellSize.xcodeproj">
+            BlueprintIdentifier = "7541D2031CEC6EE600992C6C"
+            BuildableName = "expandCellSize.app"
+            BlueprintName = "expandCellSize"
+            ReferencedContainer = "container:expandCellSize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7541D1C41CEC662900992C6C"
-            BuildableName = "expandedCellSize.app"
-            BlueprintName = "expandedCellSize"
-            ReferencedContainer = "container:expandedCellSize.xcodeproj">
+            BlueprintIdentifier = "7541D2031CEC6EE600992C6C"
+            BuildableName = "expandCellSize.app"
+            BlueprintName = "expandCellSize"
+            ReferencedContainer = "container:expandCellSize.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7541D1C41CEC662900992C6C"
-            BuildableName = "expandedCellSize.app"
-            BlueprintName = "expandedCellSize"
-            ReferencedContainer = "container:expandedCellSize.xcodeproj">
+            BlueprintIdentifier = "7541D2031CEC6EE600992C6C"
+            BuildableName = "expandCellSize.app"
+            BlueprintName = "expandCellSize"
+            ReferencedContainer = "container:expandCellSize.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
